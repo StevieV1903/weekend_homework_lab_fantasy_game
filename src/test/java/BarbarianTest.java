@@ -1,5 +1,8 @@
 import BehaviourManagement.IWeapon;
+import PlayerManagement.Wizard;
 import WeaponManagement.Axe;
+import WeaponManagement.Club;
+import WeaponManagement.Sword;
 import WeaponManagement.Weapon;
 import org.junit.Assert;
 import org.junit.Before;
@@ -15,8 +18,9 @@ public class BarbarianTest {
 
     @Before
     public void before() {
-       barbarian = new Barbarian("Steve", 20, axe);
-       axe = new Axe("Axe", 20);
+        axe = new Axe("Axe", 20);
+        barbarian = new Barbarian("Steve", 20, axe);
+
     }
 
     @Test
@@ -29,17 +33,36 @@ public class BarbarianTest {
         assertEquals(20, barbarian.getHealthPoints());
     }
 
-//    @Test
-//    public void hasWeapon(){
-//        Weapon weapon = (Weapon) barbarian.getWeapon();
-//        assertEquals("Axe", weapon.getName());
-//    }
-
-
+    @Test
+    public void hasWeapon(){
+        Weapon weapon = (Weapon) barbarian.getWeapon();
+        assertEquals("Axe", weapon.getName());
+    }
 
     @Test
     public void canUseAxe(){
         assertEquals("Lift, swing, slice", barbarian.weaponUserInstructions());
     }
 
+    @Test
+    public void canUseClub(){
+        Club club = new Club("club", 17);
+        barbarian = new Barbarian("Considine", 20, club);
+        assertEquals("Lift, swing, damage, repeat", barbarian.weaponUserInstructions());
+    }
+
+    @Test
+    public void canUseSword(){
+        Sword sword = new Sword("sword", 55);
+        barbarian = new Barbarian("Considine", 20, sword);
+        assertEquals("Lift, swing, stab and death!!", barbarian.weaponUserInstructions());
+    }
+
 }
+
+//    @Test
+//    public void can_fly_dragon(){
+//        Dragon dragon = new Dragon("Tilly");
+//        wizard = new Wizard("Toby", dragon);
+//        Assert.assertEquals("Standing up tall, beating wings, lift off!", wizard.fly());
+//    }

@@ -2,81 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7552e102-63f7-4663-9b79-e90eeb4f5ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BehaviourManagement/IWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WeaponManagement/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/healing_tool_management/HealingTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HealingToolManagement/HealingTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/healing_tool_management/Herb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HealingToolManagement/Herb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/healing_tool_management/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HealingToolManagement/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player_management/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player_management/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player_management/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player_management/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player_management/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player_management/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player_management/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/room_management/Dungeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoomManagement/Dungeon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/room_management/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoomManagement/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/room_management/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RoomManagement/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spell_management/Fire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpellManagement/Fire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spell_management/Freeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpellManagement/Freeze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spell_management/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpellManagement/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapon_management/Axe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapon_management/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeaponManagement/Club.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapon_management/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeaponManagement/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapon_management/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeaponManagement/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AxeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AxeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClubTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClubTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FireTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FireTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FreezeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FreezeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HerbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HerbTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PotionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PotionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SwordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SwordTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/healing_tool_management/HealingTool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/healing_tool_management/Herb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/healing_tool_management/Potion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player_management/Barbarian.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player_management/Cleric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player_management/Dwarf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player_management/Knight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player_management/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player_management/Warlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player_management/Wizard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/room_management/Dungeon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/room_management/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/room_management/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spell_management/Fire.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spell_management/Freeze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spell_management/Spell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weapon_management/Axe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weapon_management/Club.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weapon_management/Sword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/weapon_management/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AxeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AxeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BarbarianTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ClericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClericTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ClubTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClubTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DwarfTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FireTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FireTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FreezeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FreezeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HerbTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HerbTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PotionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PotionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SwordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SwordTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WizardTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wk12_fantasy_lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wk12_fantasy_lab.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,12 +48,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarbarianTest.canUseAxe">
+  <component name="RunManager" selected="JUnit.BarbarianTest.canUseSword">
     <configuration name="BarbarianTest.canUseAxe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wk12_fantasy_lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
       <option name="METHOD_NAME" value="canUseAxe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarbarianTest.canUseClub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wk12_fantasy_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
+      <option name="METHOD_NAME" value="canUseClub" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarbarianTest.canUseSword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wk12_fantasy_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
+      <option name="METHOD_NAME" value="canUseSword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,8 +91,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BarbarianTest.canUseAxe" />
+        <item itemvalue="JUnit.BarbarianTest.canUseSword" />
+        <item itemvalue="JUnit.BarbarianTest.canUseClub" />
         <item itemvalue="JUnit.BarbarianTest.hasWeapon" />
+        <item itemvalue="JUnit.BarbarianTest.canUseAxe" />
       </list>
     </recent_temporary>
   </component>
