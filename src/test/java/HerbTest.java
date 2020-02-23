@@ -1,4 +1,4 @@
-import healing_tool_management.Herb;
+import HealingToolManagement.Herb;
 import org.junit.Before;
 import org.junit.Test;
 

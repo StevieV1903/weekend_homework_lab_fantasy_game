@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wk12_fantasy_lab" target="1.5" />
+      <module name="wk12_fantasy_lab" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

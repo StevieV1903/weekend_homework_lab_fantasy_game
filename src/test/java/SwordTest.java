@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import weapon_management.Sword;
+import WeaponManagement.Sword;
 
 import static org.junit.Assert.assertEquals;
 

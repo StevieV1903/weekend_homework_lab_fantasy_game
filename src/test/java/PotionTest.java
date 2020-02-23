@@ -1,4 +1,4 @@
-import healing_tool_management.Potion;
+import HealingToolManagement.Potion;
 import org.junit.Before;
 import org.junit.Test;
 

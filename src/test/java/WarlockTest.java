@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import player_management.Warlock;
+import PlayerManagement.Warlock;
 
 import static junit.framework.TestCase.assertEquals;
 

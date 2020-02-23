@@ -1,9 +1,10 @@
+import BehaviourManagement.IWeapon;
 import org.junit.Before;
 import org.junit.Test;
-import player_management.Barbarian;
-import player_management.Dwarf;
-import player_management.Knight;
-import room_management.Library;
+import PlayerManagement.Barbarian;
+import PlayerManagement.Dwarf;
+import PlayerManagement.Knight;
+import RoomManagement.Library;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,13 +13,14 @@ public class LibraryTest {
     Knight knight;
     Barbarian barbarian;
     Dwarf dwarf;
+    IWeapon axe;
 
 
     @Before
     public void before(){
     library = new Library("Library");
     knight = new Knight("Galahad", 50);
-    barbarian = new Barbarian("Considine", 75);
+    barbarian = new Barbarian("Considine", 75, axe);
     dwarf = new Dwarf("Dopey", 25);
     }
 

@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import player_management.Wizard;
+import PlayerManagement.Wizard;
 
 import static junit.framework.TestCase.assertEquals;
 

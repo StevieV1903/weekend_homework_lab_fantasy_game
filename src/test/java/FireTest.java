@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import spell_management.Fire;
+import SpellManagement.Fire;
 
 import static org.junit.Assert.assertEquals;
 
