@@ -1,4 +1,4 @@
 package BehaviourManagement;
 
-public class ISpell {
+public interface ISpell {
 }
