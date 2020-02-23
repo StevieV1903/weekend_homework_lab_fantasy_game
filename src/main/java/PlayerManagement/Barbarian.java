@@ -19,6 +19,10 @@ public class Barbarian extends Player {
         return this.weapon;
     }
 
+    public void changeWeapon(IWeapon newWeapon){
+        this.weapon = newWeapon;
+    }
+
 
 }
 

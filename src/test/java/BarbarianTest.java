@@ -58,11 +58,13 @@ public class BarbarianTest {
         assertEquals("Lift, swing, stab and death!!", barbarian.weaponUserInstructions());
     }
 
-}
+    @Test
+    public void barbarianCanChangeWeapon(){
+        Sword sword = new Sword("Sword", 75);
+        barbarian.changeWeapon(sword);
+        assertEquals("Lift, swing, stab and death!!", barbarian.weaponUserInstructions());
 
-//    @Test
-//    public void can_fly_dragon(){
-//        Dragon dragon = new Dragon("Tilly");
-//        wizard = new Wizard("Toby", dragon);
-//        Assert.assertEquals("Standing up tall, beating wings, lift off!", wizard.fly());
-//    }
+    }
+
+
+}

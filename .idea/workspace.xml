@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7552e102-63f7-4663-9b79-e90eeb4f5ab1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Barbarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BarbarianTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BarbarianTest.canUseSword">
+  <component name="RunManager" selected="JUnit.BarbarianTest.barbarianCanChangeWeapon">
+    <configuration name="BarbarianTest.barbarianCanChangeWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wk12_fantasy_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
+      <option name="METHOD_NAME" value="barbarianCanChangeWeapon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BarbarianTest.canUseAxe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wk12_fantasy_lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarbarianTest.barbarianCanChangeWeapon" />
         <item itemvalue="JUnit.BarbarianTest.canUseSword" />
         <item itemvalue="JUnit.BarbarianTest.canUseClub" />
         <item itemvalue="JUnit.BarbarianTest.hasWeapon" />
