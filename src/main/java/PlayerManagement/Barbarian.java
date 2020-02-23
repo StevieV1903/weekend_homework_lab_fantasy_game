@@ -4,23 +4,23 @@ import BehaviourManagement.IWeapon;
 
 public class Barbarian extends Player {
 
-    IWeapon weapon;
+    IWeapon weaponChoice;
 
     public Barbarian(String name, int healthPoints, IWeapon weapon){
         super(name, healthPoints);
-        this.weapon = weapon;
+        this.weaponChoice = weapon;
     }
 
     public String weaponUserInstructions(){
-        return this.weapon.weaponUserInstructions();
+        return this.weaponChoice.weaponUserInstructions();
     }
 
     public IWeapon getWeapon(){
-        return this.weapon;
+        return this.weaponChoice;
     }
 
     public void changeWeapon(IWeapon newWeapon){
-        this.weapon = newWeapon;
+        this.weaponChoice = newWeapon;
     }
 
 

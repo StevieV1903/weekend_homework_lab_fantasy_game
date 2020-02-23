@@ -1,4 +1,5 @@
 import BehaviourManagement.IWeapon;
+import WeaponManagement.Axe;
 import org.junit.Before;
 import org.junit.Test;
 import PlayerManagement.Barbarian;
@@ -13,13 +14,13 @@ public class LibraryTest {
     Knight knight;
     Barbarian barbarian;
     Dwarf dwarf;
-    IWeapon axe;
+    Axe axe;
 
 
     @Before
     public void before(){
     library = new Library("Library");
-    knight = new Knight("Galahad", 50);
+    knight = new Knight("Galahad", 50, 15);
     barbarian = new Barbarian("Considine", 75, axe);
     dwarf = new Dwarf("Dopey", 25);
     }

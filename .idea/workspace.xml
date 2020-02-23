@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7552e102-63f7-4663-9b79-e90eeb4f5ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BehaviourManagement/IHealing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BehaviourManagement/ISpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BehaviourManagement/ISpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HealingToolManagement/Herb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HealingToolManagement/Herb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HealingToolManagement/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HealingToolManagement/Potion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Barbarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ClericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClericTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpellManagement/Fire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpellManagement/Fire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SpellManagement/Freeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpellManagement/Freeze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WizardTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +60,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClericTest">
-    <configuration name="BarbarianTest.barbarianCanChangeWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KnightTest.hasBodyArmour">
+    <configuration name="BarbarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wk12_fantasy_lab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BarbarianTest" />
-      <option name="METHOD_NAME" value="barbarianCanChangeWeapon" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,16 +75,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClericTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClericTest.canUseHerb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wk12_fantasy_lab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="canUseHerb" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,23 +89,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClericTest.hasHerb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KnightTest.hasBodyArmour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wk12_fantasy_lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClericTest" />
-      <option name="METHOD_NAME" value="hasHerb" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="METHOD_NAME" value="hasBodyArmour" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wk12_fantasy_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KnightTest.hasBodyArmour" />
+        <item itemvalue="JUnit.WizardTest" />
         <item itemvalue="JUnit.ClericTest" />
+        <item itemvalue="JUnit.BarbarianTest" />
         <item itemvalue="JUnit.ClericTest.canUsePotion" />
-        <item itemvalue="JUnit.ClericTest.canUseHerb" />
-        <item itemvalue="JUnit.ClericTest.hasHerb" />
-        <item itemvalue="JUnit.BarbarianTest.barbarianCanChangeWeapon" />
       </list>
     </recent_temporary>
   </component>

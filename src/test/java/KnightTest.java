@@ -1,3 +1,4 @@
+import SpellManagement.Fire;
 import org.junit.Before;
 import org.junit.Test;
 import PlayerManagement.Knight;
@@ -10,7 +11,7 @@ public class KnightTest {
 
     @Before
     public void before() {
-        knight = new Knight("Alex", 40);
+        knight = new Knight("Alex", 40, 20);
     }
     @Test
     public void hasName(){
@@ -19,5 +20,9 @@ public class KnightTest {
     @Test
     public void hasHealthPoints(){
         assertEquals(40, knight.getHealthPoints());
+    }
+    @Test
+    public void hasBodyArmour(){
+        assertEquals(20, knight.getBodyArmourProtection());
     }
 }

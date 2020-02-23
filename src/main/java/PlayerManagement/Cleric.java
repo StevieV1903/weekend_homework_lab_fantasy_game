@@ -5,23 +5,23 @@ import BehaviourManagement.IWeapon;
 
 public class Cleric extends Player {
 
-    IHealing healingTool;
+    IHealing healingToolChoice;
 
     public Cleric(String name, int healthPoints, IHealing healingTool){
         super(name, healthPoints);
-        this.healingTool = healingTool;
+        this.healingToolChoice = healingTool;
     }
 
     public String healingToolUserInstructions(){
-        return this.healingTool.healingToolUserInstructions();
+        return this.healingToolChoice.healingToolUserInstructions();
     }
 
     public IHealing getHealingTool(){
-        return this.healingTool;
+        return this.healingToolChoice;
     }
 
     public void changeHealingTool(IHealing newHealingTool){
-        this.healingTool = newHealingTool;
+        this.healingToolChoice = newHealingTool;
     }
 }
 
