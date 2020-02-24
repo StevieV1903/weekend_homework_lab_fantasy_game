@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7552e102-63f7-4663-9b79-e90eeb4f5ab1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BehaviourManagement/ISpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BehaviourManagement/ISpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerManagement/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerManagement/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpellManagement/Fire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpellManagement/Fire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpellManagement/Freeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpellManagement/Freeze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/KnightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LibraryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WizardTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
